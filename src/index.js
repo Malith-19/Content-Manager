@@ -9,7 +9,7 @@ export default function App(){
   return(
    <BrowserRouter>
     <Routes>
-      <Route path="/" element={<Homepage/>}/>
+      <Route path="/" element={<Homepage isSlides={true} />}/>
       <Route path="settings" element={<Settings/>} />
     </Routes>
    </BrowserRouter>

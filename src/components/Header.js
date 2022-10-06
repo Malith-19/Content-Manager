@@ -21,7 +21,7 @@ export default function Header(props){
                     <h1>Welcome, {props.username}</h1>
                 </Grid>
 
-                <Grid xs={2} sx={{paddingTop:"30px",paddingLeft:"30px"}}>
+                <Grid xs={2} sx={{paddingLeft:"30px"}}>
                     <Button sx={{align:"right",}} variant="contained">Logout</Button>
                 </Grid>
             </Grid>
